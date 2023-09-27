@@ -127,7 +127,7 @@ img {
 .pic-text {
   padding-top: 16px;
   margin-left: -40px;
-} 
+}
 
 /* Avd */
 
@@ -136,7 +136,7 @@ img {
 }
 
 .avd {
-  padding-top: 50px;  
+  padding-top: 50px;
   padding-left: 70px;
 }
 
@@ -167,6 +167,7 @@ img {
   width: 217px;
   height: 56px;
   flex-shrink: 0;
+  padding: 15px 30px;
   border-radius: 6px;
   background: #66D2CF;
   color: #FEFCF7;
@@ -176,6 +177,7 @@ img {
   font-style: normal;
   font-weight: 900;
   line-height: 25px;
+  text-decoration: none;
 }
 
 .avd {
@@ -190,4 +192,44 @@ img {
 .pic-avd {
   padding-top: 50px;
   margin-left: -50px;
+}
+
+/* Main */
+
+
+
+.main .container {
+  width: 1111px;
+  height: 196px;
+  background: linear-gradient(180deg, rgba(254, 252, 247, 0.00) 0%, #FEFCF7 100%);
+  margin-top: -550px;
+  background-image: url(../img/Group\ 13.png);
+}
+
+.did-title {
+  margin-top: 540px;
+}
+
+.title-h2 {
+  width: 255px;
+  color: #333D4B;
+  text-align: center;
+  font-family: "Fraunces" 9pt;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  padding-top: 71px;
+}
+
+.title-description {
+  width: 255px;
+  color: #333D4B;
+  text-align: center;
+  font-family: "Barlow";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 10px;
 }
