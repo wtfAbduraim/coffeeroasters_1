@@ -233,7 +233,7 @@ img {
 
 .list_li {
   width: 1180px;
-  height: 500px;
+  height: 600px;
   text-align: center;
   background-color: #333D4B;
   list-style: none;
@@ -269,7 +269,7 @@ img {
 .list_d {
   display: flex;
   margin-left: 25px;
-  margin-top: -200px;
+  margin-top: -260px;
 }
 
 .list_div {
@@ -283,6 +283,7 @@ img {
 
 .list_pic {
   padding-top: 72px;
+  margin-bottom: 56px;
 }
 
 .list_h4 {
@@ -293,7 +294,7 @@ img {
   font-style: normal;
   font-weight: 900;
   line-height: 32px;
-  padding-top: 30px;
+
 }
 
 .list_p_1 {
@@ -308,3 +309,121 @@ img {
   margin-left: 47px;
   opacity: 0.8;
 }
+
+.free__f {
+  padding-top: 20px;
+}
+
+.item__h4 {
+  color: #83888F;
+  font-family: "Fraunces";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  padding-top: 100px;
+  /* margin-left: -40px; */
+}
+
+.item .container {
+  display: flex;
+  width: 1045px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px;
+  margin-bottom: 67px;
+}
+
+.item__hr {
+  width: 775px;
+  height: 1px;
+  color: #FDD6BA;
+  background-color: #FDD6BA;
+  border: none;
+  margin-left: -1px;
+}
+
+.item__span {
+  width: 31px;
+  height: 31px;
+  border: 2px solid #0E8784;
+  border-radius: 50%;
+  background-color: #FEFCF7;
+  color: #FEFCF7;
+  display: inline-block;
+  margin-left: 349px;
+}
+
+.item__div {
+  justify-content: space-between;
+  margin-top: -105px;
+  margin-left: -349px;
+
+}
+
+/* Navber */
+
+.navber {
+  display: flex;
+}
+
+.div__1 {
+  margin-left: 125px;
+}
+
+.div__2 {
+  margin-left: 125px;
+}
+
+.navber__h4 {
+  color: #FDD6BA;
+  font-family: "Fraunces";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px;
+}
+
+.navber__h4__1 {
+  width: 255px;
+  color: #333D4B;
+  font-family: "Fraunces";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px;
+}
+
+.navber__p {
+  width: 285px;
+  color: #333D4B;
+  font-family: "Barlow";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.navber-link {
+  width: 217px;
+  height: 56px;
+  padding: 15px 25px;
+  align-items: center;
+}
+
+/* Link-bar */
+
+.link__bar .container {
+  width: auto;
+  height: 120px;
+  background: #2C343E;
+  align-items: center;
+}
+
+
+
+.link__bar__div {
+ margin-right: 300px;
+}
+
